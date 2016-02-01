@@ -1,5 +1,22 @@
+
+#container {
+	width: 520px;
+	margin: 0 auto;
+
+}
+
+.card {
+
+	margin-bottom: 50px;
+	padding-top: 10px;
+	padding-left: 20px;
+	box-shadow: 2px 2px 2px #5F5F5F;
+	text-align: center;
+	background-color: white;
+}
+
 body {
-	background-color: #EBEBEB;
+	background-color: #F1F1F1;
 	color:#8C8C8C;
 }
 
