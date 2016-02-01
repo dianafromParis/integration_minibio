@@ -1,3 +1,29 @@
 body {
 	background-color: #EBEBEB;
+	color:#8C8C8C;
+}
+
+h1 {
+	color: red;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+li i {
+	color:#CCCCCC;
+}
+
+a {
+	color:#CCCCCC;
+	text-decoration: none;
 }
