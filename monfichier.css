@@ -1,6 +1,6 @@
 
 #container {
-	width: 520px;
+	width: 650px;
 	margin: 0 auto;
 
 }
@@ -13,6 +13,23 @@
 	box-shadow: 2px 2px 2px #5F5F5F;
 	text-align: center;
 	background-color: white;
+
+	padding-bottom: 30px;
+}
+
+#round {
+	border-radius: 60%;
+}
+
+#btn-red {
+	  padding-top: 20px;
+	  border-radius: 10px;
+	  background-color:#DD5555;
+	  width: 350px;
+	  height: 40px;
+	  color:white;
+	  font-weight: 700;
+	  margin: 0 auto;
 }
 
 body {
@@ -36,9 +53,14 @@ p {
 	font-weight: 400;
 }
 
-li i {
+
+li {
+	display: inline; /*  pour que la liste soit horizontale */
 	color:#CCCCCC;
+	padding: 30px;
+	
 }
+
 
 a {
 	color:#CCCCCC;
@@ -50,3 +72,4 @@ a:hover {
 	color: yellowgreen;
 	text-decoration: none;
 }
+
