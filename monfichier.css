@@ -1,6 +1,6 @@
 
 #container {
-	width: 650px;
+	width: 80%;
 	margin: 0 auto;
 
 }
@@ -64,7 +64,7 @@ ul li {
 }
 
 ul li *{
-	padding: 2%;
+	padding: 2%; 
 	display: block;
 }
 
@@ -80,3 +80,16 @@ a:hover {
 	text-decoration: none;
 }
 
+#side-navbar{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+    width: 5%;
+    background-color: #384047;
+    color:#788188;
+    position: fixed;
+    height: 100%;
+    
+}
