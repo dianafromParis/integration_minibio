@@ -1,14 +1,14 @@
 
 #container {
-	width: 80%;
-	margin: 0 auto;
+	width: 45%;
+	margin: 30px auto;
 
 }
 
 .card {
 
 	margin-bottom: 50px;
-	padding-top: 10px;
+	padding-top: 20px;
 	padding-left: 20px;
 	border-radius:5px;
 	box-shadow: 1px 2px 1px lightgray;
@@ -23,37 +23,49 @@
 }
 
 #btn-red {
-	  padding-top: 20px;
+	  padding-top: 10px;	
 	  border-radius: 10px;
-	  background-color:#DD5555;
-	  width: 350px;
-	  height: 40px;
+	  background-color:#F45B69;
+	  width: 300px;
+	  height: 50px;
 	  color:white;
 	  font-weight: 700;
+	  font-size:24px;	
 	  margin: 0 auto;
+	  box-shadow: 3px 3px 2px #7E858B;
+	  
 }
+
+#btn-red:hover {
+	 background-color:#f43848;
+	color:lightyellow;
+}
+
+#btn-red:active {
+	 box-shadow: 1px 1px 1px #7E858B;
+}
+
 
 body {
 	background-color: #F1F1F1;
 	color:#8C8C8C;
+	font-family:'Oxygen', Arial, sans-serif;
 }
 
 h1 {
 	color: red;
-	font-family: 'Montserrat', sans-serif;
 }
 
-h2 {
 
-	font-family: 'Montserrat', sans-serif;
-}
 
 p {
-
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 }
 
+.movie-title {
+
+	font-size:20px;
+}
 
 ul li {
 	display: inline-block; /*  pour que la liste soit horizontale */
@@ -69,6 +81,10 @@ ul li *{
 }
 
 
+table {
+	margin-left:75px;	
+}
+
 a {
 	color:#CCCCCC;
 	text-decoration: none;
@@ -76,13 +92,14 @@ a {
 }
 
 a:hover {
-	color: yellowgreen;
+	color: #F45B69;
 	text-decoration: none;
 }
 
 #side-navbar{
     list-style-type: none;
     text-align: center;
+	top: 0;
     margin: 0;
     padding: 0;
     
